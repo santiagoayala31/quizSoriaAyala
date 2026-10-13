@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+}
+
+.contenedor {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0 0 24px;
+}
+
+/* Formulario */
+.formulario {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.formulario h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+}
+
+.campos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.campos input {
+  flex: 1 1 200px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  padding: 8px 16px;
+}
+
+.btn-agregar {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+
+.btn-agregar:hover {
+  background: #1d4ed8;
+}
+
+/* Alerta de error */
+.alerta {
+  background: #fde8e8;
+  color: #9b1c1c;
+  border: 1px solid #f8b4b4;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.vacio {
+  color: #666;
+}
+
+/* Lista de libros */
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.libro {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.libro h3 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.libro p {
+  margin: 0 0 6px;
+  color: #555;
+}
+
+.libro small {
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.btn-eliminar {
+  margin-top: auto;
+  background: transparent;
+  color: #c81e1e;
+  border: 1px solid #c81e1e;
+}
+
+.btn-eliminar:hover {
+  background: #c81e1e;
+  color: #fff;
+}
