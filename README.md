@@ -10,7 +10,7 @@ biblioteca/
 └── frontend/   React (Vite) con CSS propio
 ```
 
-## Cómo correrlo (forma rápida)
+## Cómo correrlo
 
 Desde la carpeta `biblioteca` (la que tiene este README):
 
