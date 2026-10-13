@@ -7,7 +7,7 @@ API REST (Node.js + Express) y frontend (React + Vite) para gestionar libros.
 ```
 biblioteca/
 ├── backend/    API REST con Express, Swagger y CORS
-└── frontend/   React (Vite) con CSS propio
+└── frontend/   React (Vite)
 ```
 
 ## Cómo correrlo
